@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        .contenedor{
+            display: flex;
+            justify-content: center;
+        }
+        .caja{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            background-color: coral;
+            height: 300px;
+            width: 100px;
+            text-align: center;
+        }
+        .caja1{
+            order: 5;
+        }
+        .caja2{
+            order: 2;
+            flex-grow: 0.5;
+        }
+        .caja3{
+            order: 1;
+        }
+        .caja4{
+            order: 3;
+        }
+        .caja5{
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja caja1">
+            <p>1</p>
+        </div>
+        <div class="caja caja2">
+            <p>2</p>
+        </div>
+        <div class="caja caja3">
+            <p>3</p>
+        </div>
+        <div class="caja caja4">
+            <p>4</p>
+        </div>
+        <div class="caja caja5">
+            <p>5</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- para que pueda leer los archivos de referencia debe adaptar el camino de archivo referenciado en la siguiente etiqueta y declarar 
+    el documento -->
+<!-- p1 marca la primera parte del documento referenciado al archivo con el mismo nombre-->
+<p1:ejercicio xmlns:p1="C:\Users\veronica\OneDrive\Desktop\Cuaderno\Lenguaje de marcas\Actividades\Actividad 2\p1.xml"
+              xmlns:p2="C:\Users\veronica\OneDrive\Desktop\Cuaderno\Lenguaje de marcas\Actividades\Actividad 2\p2.xml">
+<p1:carta>
+    <p1:palo>Corazones</p1:palo>
+    <p1:numero>7</p1:numero>
+</p1:carta>
+<!-- p2 marca la primera parte del documento referenciado al archivo con el mismo nombre-->
+<p2:carta>
+    <p2:carnes>
+        <p2:filete_de_ternera precio="12.95"/>
+        <p2:solomillo_a_la_pimienta precio="13.60"/>
+    </p2:carnes>
+    <p2:pescados>
+        <p2:lenguado_al_horno precio="16.20"/>
+        <p2:merluza_en_salsa_verde precio="15.85"/>
+    </p2:pescados>
+</p2:carta>
+</p1:ejercicio>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <script src="https://kit.fontawesome.com/40f1c0eeef.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .encabezado {
+            display: flex;
+            background-color: darkgrey;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .menu1 {
+            display: flex;
+            justify-content: flex-end;
+            gap: 2px;
+            list-style: none;
+            text-align: center;
+            width: 80%;
+        }
+
+        .menuE {
+            background-color: antiquewhite;
+            color: black;
+            border-radius: 20px;
+            width: 10%;
+            height: 25px;
+        }
+
+        .menuE:hover {
+            background-color: bisque;
+        }
+
+        .cuerpo {
+            display: flex;
+        }
+
+        .cuerpo1 {
+            background-color: aliceblue;
+            width: 70%;
+        }
+
+        .cuerpo2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 30%;
+            background-color: gray;
+        }
+
+        .caja {
+            width: 70%;
+            height: 100px;
+            background-color: black;
+        }
+
+        .pie {
+            display: flex;
+            background-color: darkgrey;
+        }
+
+        .menu2 {
+            display: flex;
+            justify-content: flex-start;
+            list-style: none;
+            text-align: center;
+            width: 90%;
+        }
+
+        .menuP {
+            padding: 5px;
+            width: fit-content;
+            background-color: black;
+            color: white;
+        }
+
+        .menuP:hover {
+            background-color: wheat;
+            color: black;
+        }
+
+        .redes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 10%;
+
+        }
+
+        .fa-brands {
+            width: 30px;
+            height: 30px;
+        }
+
+        @media(max-width:800px) {
+            .encabezado {
+
+                flex-wrap: wrap; 
+                justify-content: center;
+                width: 100%;
+            }
+
+            .logo {
+                justify-content: center; 
+            }
+
+            .menu1 {
+                justify-content: space-evenly;
+                width: 100%;
+            }
+
+            .menuE {
+                width: 100%;
+            }
+
+            .cuerpo {
+                flex-wrap: wrap;
+            }
+
+            .cuerpo1 {
+                width: 100%;
+            }
+
+            .cuerpo2 {
+                flex-direction: row;
+                padding: 30px;
+                width: 100%;
+            }
+
+            .caja {
+                height: 150px;
+            }
+        }
+
+        @media (max-width:600px) {
+            .cuerpo2 {
+                flex-direction: column;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="encabezado">
+        <div class="logo">
+            <h3>Prueba FlexBox</h3>
+        </div>
+        <nav class="menu1">
+            <a class="menuE">Inicio</a>
+            <a class="menuE">Blog</a>
+            <a class="menuE">Proyectos</a>
+            <a class="menuE">Contacto</a>
+        </nav>
+    </div>
+    <div class="cuerpo">
+        <div class="cuerpo1">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet
+                inventore ratione eius perspiciatis distinctio ut impedit excepturi esse,
+                minus fugiat,autem quod illo, iusto deleniti consectetur placeat quidem
+                reprehenderit.
+            </p>
+            <hr>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet
+                inventore ratione eius perspiciatis distinctio ut impedit excepturi esse,
+                minus fugiat,autem quod illo, iusto deleniti consectetur placeat quidem
+                reprehenderit.
+            </p>
+        </div>
+        <div class="cuerpo2">
+            <div class="caja"></div>
+            <div class="caja"></div>
+        </div>
+    </div>
+    <div class="pie">
+        <ul class="menu2">
+            <li class="menuP">Inicio</li>
+            <li class="menuP">Blog</li>
+            <li class="menuP">Proyectos</li>
+            <li class="menuP">Contacto</li>
+        </ul>
+        <div class="redes">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+</body>
+
+</html>

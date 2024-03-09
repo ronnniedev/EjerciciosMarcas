@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    background-color: aquamarine;
+    height: 800px;
+    padding: 10px;
+    display:flex;
+    text-align: center;
+}
+
+.caja {
+    align-self: flex-start;
+    justify-content: space-evenly;
+    background-color: green;
+    width: 19.73%; 
+    margin-left: 10px;
+    height: 8%;
+    border: 2px solid black;
+}
+
+.caja2 {
+    align-self: flex-start;
+    justify-content: space-evenly; 
+    background-color: green;
+    margin-left: 10px;
+    width: 55%; 
+    height: 8%;
+    border: 2px solid black;
+    order: 2;
+}
+
+.cajaImpar{
+    align-self: flex-end;
+    justify-content: space-evenly;
+    height: 8%;
+    background-color: green;
+    width: 19.73%; 
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.caja1 {
+order: 5;
+
+}
+
+.caja3 {
+order: 1;
+    
+}
+
+.caja4 {
+    order: 3;
+        
+}
+
+.caja5 {
+order: 4;
+        
+}

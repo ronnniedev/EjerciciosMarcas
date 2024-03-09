@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <style type="text/css">
+        @import url(estilos/estilos.css);
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+                <p>
+                    <label>Nombre:</label>
+                    <input type="text" name="Nombre" maxlength="12">
+                    <br>
+                </p>
+                <p>
+                    Apellidos:
+                    <input type="text" name="Apellidos" maxlength="30">
+                    <br>
+                </p>
+                <p>
+                    Telefono:
+                    <input type="tel" name="telefono" maxlength="9">
+                    <br>
+                </p>
+                <p>
+                    Correo electronico:
+                    <input type="email" name="correo" maxlength="30">
+                    <br>
+                </p>
+                <p>
+                    Fecha y hora del evento:
+                    <input type="datetime-local" name="fecha">
+                    <br>
+                </p>
+                <p>
+                    Provincia del evento:
+                    <input type="text" name="provincia" maxlength="30">
+                    <br>
+                </p>
+                <p>
+                    Ciudad del evento:
+                    <input type="text" name="ciudad" maxlength="15">
+                    <br>
+                </p>
+                <p>
+                    Calle del evento:
+                    <input type="text" name="calle" maxlength="80">
+                    <br>
+                </p>
+                <p>
+                    Codigo postal:
+                    <input type="text" name="postal" maxlength="5"> 
+                    <br>
+                </p>
+                <p>
+                    Preferencia de pago:
+                    <select name="pago">
+                        <option value="predeterminado">-------</option>
+                        <option value="tarjeta">tarjeta</option>
+                        <option value="metalico">metalico</option>
+                        <option value="transferencia">transferencia</option>
+                    </select>
+                </p>
+                <p>
+                    Danos mas detalles sobre lo que buscas en tu evento (tipo de vento, cuanta gente asistira, presupuesto):   
+                </p>
+                <textarea rows="14" cols="75" class="sugerencias"></textarea>
+                <p>
+                    <input type="checkbox" name="Aceptar condiciones"><a href="condiciones.html">Confirmación de Términos y Condiciones</a>
+                </p>
+            </fieldset>
+            <div style="text-align: center; ">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Comenzar de nuevo">
+            </div>
+    </form>
+    
+</body>
+</html>

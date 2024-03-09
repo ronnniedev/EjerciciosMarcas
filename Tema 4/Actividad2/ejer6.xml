@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "ejer6.dtd">
+<inventario>
+    <cuaderno>
+        <numhojas>50</numhojas>
+        <estilo>Muh Guapo</estilo>
+    </cuaderno>
+    <boligrafo>
+        <precio>30 duros</precio>
+        <color>Rojo</color>
+    </boligrafo>
+    <lapiz/>
+    <lapiz>
+        <dureza>muhduro</dureza>
+    </lapiz>
+    <boligrafo>
+        <precio>50 duros</precio>
+    </boligrafo> 
+</inventario>

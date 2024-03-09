@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+
+        ul {
+            background-color: lightslategray;
+            padding: 5px;
+            display: flex;
+        }
+
+        li {
+            list-style-type: none;
+            background-color: orangered;
+            padding: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 10px;
+            color: white;
+            margin: 10px;
+        }
+
+        .start {
+            justify-content: flex-start;
+        }
+
+        .end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .between{
+            justify-content: space-between;
+        }
+
+        .around {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    flex-start
+    <ul class="start">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    flex-end
+    <ul class="end">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    center
+    <ul class="center">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    space-between
+    <ul class="between">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    space-around
+    <ul class="around">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>

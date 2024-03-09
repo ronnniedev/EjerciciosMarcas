@@ -1,0 +1,41 @@
+----actividad 1: 
+Links, parrafos, heads, negrita , cursiva, subrayado...
+
+----Actividad 2:
+-Diferentes estilos de cabeza
+
+-tipos de listas (ordenadas desordenadas)
+    .Estilo dentro de las listas
+
+-Tablas
+    .tfoot (poner pies y cabezas)
+    .modificar celdas y columnas
+
+
+----Actividad 3:
+-Tipos de formulario
+    .Chekbox... radios.. estilos de checkbox..inputs
+
+-Fieldset
+
+----Actividad 4:
+-Imagenes con links asociados
+-Texto con negrita , link y imagen
+
+----Actividad 5:
+
+-Listas con divs
+-Links
+-Lineas de la pagina
+
+----Actividad 6:
+
+-Bordes, padding y marging (formateo de bordes)
+
+----Actividad 7:
+
+-Float, clear both, tambien como hacer que cajas ocupen todo el espacio de la pagina
+
+----Actividad 8:
+
+-displays y estilo de listas.

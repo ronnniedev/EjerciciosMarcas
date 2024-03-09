@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding="ISO-8859-1" standalone='yes'?> <!-- le faltaba declarar la version y el
+standalone -->
+<persona nacimiento="1999-10-20"> <!-- al ser la etiqueta de cierre "persona" borre "s_" para que
+    quede bien escrita-->
+    <nombre>
+        <nombre>Pepe</nombre>
+        <apellidos>Garcia</apellidos>
+        <dni>25390952</dni>
+    </nombre>
+    <comentario>buena gente...</comentario>
+    <nombre>
+        <nombre>David</nombre>
+        <apellidos>Rodriguez</apellidos>
+        <dni>234234234</dni>
+    </nombre>
+    <comentario> Reponsable</comentario>
+    <nombre>
+        <nombre>Marta</nombre>
+        <apellidos>Lopez</apellidos>
+        <dni>1234234952</dni>
+    </nombre>
+    <comentario>Trabjadora</comentario>
+</persona>

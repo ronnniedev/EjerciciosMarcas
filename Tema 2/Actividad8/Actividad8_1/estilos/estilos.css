@@ -1,0 +1,36 @@
+.circulos {
+    list-style-type: circle;
+
+}
+.cuadrados {
+    list-style-type:square;
+
+}
+.romanos {
+    list-style-type:lower-roman;
+
+}
+.griegas {
+    list-style-type:lower-greek;
+
+}
+
+.none {
+    list-style-type: none;
+
+
+}
+
+.navegacion{
+    float:left;
+    list-style: none;
+    border: 2px solid black;
+    width: 15%;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}

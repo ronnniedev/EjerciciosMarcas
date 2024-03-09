@@ -1,0 +1,23 @@
+p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+body {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+img {
+    aspect-ratio: 1;
+    width: 10rem;
+}
+
+@media (min-width: 700px) {
+    body {
+        text-align: left;
+        align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+    <ciudad>
+      <nombre>Beijing</nombre>
+      <pais continente="Asia">China</pais>
+    </ciudad>
+    <ciudad>
+      <nombre>Madrid</nombre>
+      <pais continente="Europa">España</pais>
+    </ciudad>
+    <ciudad>
+      <nombre>El Cairo</nombre>
+      <pais continente="Africa">Egipto</pais>
+    </ciudad>
+    <ciudad>
+      <nombre>Sao Paulo</nombre>
+      <pais continente="America del sur">Brasil</pais>
+    </ciudad>
+    <ciudad>
+      <nombre>Nueva York</nombre>
+      <pais continente="America del norte">Estados Unidos</pais>
+    </ciudad>
+</ciudades>

@@ -1,0 +1,127 @@
+* {
+
+    box-sizing: border-box;
+    
+}
+body{
+
+    background-color: gray;
+    background-image: url(../img/fondo.png);
+}
+
+header {
+    height: 50px;
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 90%;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+h1 {
+    float: right;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.Discoestu {
+    color: solid black;
+    font-size:xx-large;
+    font-weight: bold;
+    
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+a{
+    padding: 5px;
+    background-color: white;
+    float: right;
+}
+
+a:hover {
+    padding: 5px;
+    background-color: gray;
+    float: right;
+
+}
+
+.musica {
+
+    float: left;
+    height: 100%;
+    width: 33%;
+
+}
+.videos {
+    float: left;
+    height: 100%;
+    width: 33%;
+
+}
+
+footer {
+    border-radius: 25px;
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    border: 1px solid black;
+    font-family:Verdana;
+    clear:both;
+    text-align: center;
+    
+}
+
+section {
+    height: 650px;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+audio {
+     padding: 50px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+}
+
+.titulo{
+    background-color: aqua;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+video {
+    height: 10%;
+    width: 75%;
+
+}
+
+.mapa {
+    float: left;
+    height: 100%;
+    width: 34%;
+    
+}
+iframe {
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 3px solid aqua;
+}
+
+h3 {
+    text-align: center;
+
+}

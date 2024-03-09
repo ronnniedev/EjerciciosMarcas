@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.cajaVerde{
+    border: 4px solid white;
+}
+
+.cajaContenedor{
+    border:2px solid black;
+}
+
+.cajaRoja{
+    background-color: red;
+    border: 4px solid white;
+}
+
+.cajaContenedor{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.cajaMasAzul{
+    background-color: blue;
+    border: 4px solid white;
+    height: 100px;
+
+}
+
+.cajaRosa{
+    background-color: pink;
+    border: 4px solid white;
+    height: 60px;
+}
+
+.cajaNaranja{
+    background-color: orange;
+    border: 4px solid white;
+    height: 150px;
+}
+
+@media (max-width: 560px){
+.cajaRoja{
+    height: 50px;
+}
+}
+
+
+
+
+
+
+
+

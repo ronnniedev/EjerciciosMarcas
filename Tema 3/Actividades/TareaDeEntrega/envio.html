@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cofreria</title>
+    <style type="text/css">
+        @import url(estilos/estilo.css);
+    </style>
+</head>
+<body style="background-image: url(img/fondo.jpg);">
+    <header class="encabezado">
+        <img class="floatDerecha" src="img/crossDerecha.jpeg">
+        <img class="floatIzquierda" src="img/crossIzquierda.jpg">
+        <p class="head"><b>La cofreria</b></p>      
+    </header>
+    <nav>
+        <a class="botones" href="index.html"><img class="iconosNav" src="img/houseicon.png">Home</a>
+        <a class="botones" href="historia.html"><img class="iconosNav" src="img/historiaicon.png">Historia</a>
+        <a class="botones" href="receta.html"><img class="iconosNav" src="img/recetaicon.png">Recetas</a>
+        <a class="botones" href="envio.html"><img class="iconosNav" src="img/envios.png">Envios</a>
+        <a class="botones" href="contacto.html"><img class="iconosNav" src="img/contactoicon.png">Contacto</a>
+    </nav>
+        <center><img class="fondoRecetas" src="img/catering.jpg"></img></center>
+        <section>
+            <article class="cajaTextoContacto">
+                <center><u><h1 class="masgrande">Nuestro servicio de catering</h1></u></center>
+                <p>En La Cofrería, entendemos que cada ocasión es especial y merece ser celebrada con deliciosos sabores y presentaciones impecables. 
+                    Nuestro servicio de catering está diseñado para cautivar a tus invitados, 
+                    brindándoles una experiencia gastronómica inolvidable que refleja la esencia única de La Cofrería.</p>
+
+                <p> Para ello hemos preparado un pequeño formulario para aquellas personas que requieran de un servicio especial de catering, le rogamos que rellene los iguientes datos si desea nuestro servicio</p>
+                <form>
+                            <p>
+                                Nombre:
+                                <input type="text" name="Nombre" maxlength="12">
+                                <br>
+                            </p>
+                            <p>
+                                Apellidos:
+                                <input type="text" name="Apellidos" maxlength="30">
+                                <br>
+                            </p>
+                            <p>
+                                Telefono:
+                                <input type="tel" name="telefono" maxlength="9">
+                                <br>
+                            </p>
+                            <p>
+                                Correo electronico:
+                                <input type="email" name="correo" maxlength="30">
+                                <br>
+                            </p>
+                            <p>
+                                Fecha y hora del evento:
+                                <input type="datetime-local" name="fecha">
+                                <br>
+                            </p>
+                            <p>
+                                Provincia del evento:
+                                <input type="text" name="provincia" maxlength="30">
+                                <br>
+                            </p>
+                            <p>
+                                Ciudad del evento:
+                                <input type="text" name="ciudad" maxlength="15">
+                                <br>
+                            </p>
+                            <p>
+                                Calle del evento:
+                                <input type="text" name="calle" maxlength="80">
+                                <br>
+                            </p>
+                            <p>
+                                Codigo postal:
+                                <input type="text" name="postal" maxlength="5"> 
+                                <br>
+                            </p>
+                            <p>
+                                Preferencia de pago:
+                                <select name="pago">
+                                    <option value="predeterminado">-------</option>
+                                    <option value="tarjeta">tarjeta</option>
+                                    <option value="metalico">metalico</option>
+                                    <option value="transferencia">transferencia</option>
+                                </select>
+                            </p>
+                            <p>
+                                Danos mas detalles sobre lo que buscas en tu evento (tipo de vento, cuanta gente asistira, presupuesto):   
+                            </p>
+                            <textarea rows="14" cols="75" class="sugerencias"></textarea>
+                            <p>
+                                <input type="checkbox" name="Aceptar condiciones"><a href="condiciones.html">Confirmación de Términos y Condiciones</a>
+                            </p>
+                        <div style="text-align: center; ">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Comenzar de nuevo">
+                        </div>
+                </form>
+
+        </section>
+        <footer class="redessociales">
+            <center>
+                <h1>VISITA NUESTRAS REDES SOCIALES</h1>
+            </center>
+            <section class="responsive">
+            <a href="https://twitter.com/Crois_Sants" target="_blank"> <!-- para poner un link-->
+                <img src="img/twitter.png" class="iconos">
+            </a>
+            <a href="https://www.facebook.com/groups/reposteriaparaprincipiantes/?locale=es_LA" target="_blank">
+                <!-- para poner un link-->
+                <img src="img/facebook.webp" class="iconos">
+            </a>
+            <a href="https://www.youtube.com/watch?v=QFTbZTv3wjo" target="_blank"> <!-- para poner un link-->
+                <img src="img/youtube.png" class="iconos">
+            </a>
+        </section>
+        </footer>
+</body>
+</html>

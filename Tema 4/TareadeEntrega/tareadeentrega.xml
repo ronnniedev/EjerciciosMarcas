@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tareadeentrega.css" type="text/css"?>
+<!DOCTYPE instalaciones SYSTEM "tareadeentrega.dtd">
+<instalaciones>
+    <consignas>
+        <cabeceraConsigna>
+            <titulo>Nombre Consignas</titulo>
+            <titulo>Encargado</titulo>
+            <titulo>Encargado</titulo>
+            <titulo>Encargado</titulo>
+            <titulo>Turno</titulo>
+        </cabeceraConsigna>
+        <consigna codigo="prin">
+            <nombreConsigna>Consigna Principal</nombreConsigna>
+            <encargado>Maria Isabel </encargado>
+            <encargado>Florin </encargado>
+            <encargado>Andrea </encargado>
+            <completo>Turno 24H</completo>
+        </consigna>
+        <consigna codigo="sec">
+            <nombreConsigna>Consigna Secundaria</nombreConsigna>
+            <encargado>Ramon Bravo </encargado>
+            <encargado>Marta Lopez </encargado>
+            <encargado></encargado>
+            <diurno>Turno Diurno</diurno>
+        </consigna>
+        <consigna codigo="ter">
+            <nombreConsigna>Consigna Terciaria</nombreConsigna>
+            <encargado>Laura Roman </encargado>
+            <encargado></encargado>
+            <encargado></encargado>
+            <nocturno>Turno Nocturno</nocturno>
+        </consigna>
+    </consignas>
+    <clientes>
+        <cabecera>
+            <titulo>Documentos</titulo>
+            <titulo>Nombres</titulo>
+            <titulo>Contactos</titulo>
+            <titulo>Objetos</titulo>
+            <titulo>Descuentos</titulo>
+            <titulo>Precio</titulo>
+        </cabecera>
+    <cliente codigo="prin">
+        <documentos>
+            <dni>53783715Q</dni>
+            <dni>123456789A</dni>
+        </documentos>
+        <nombres>
+        <nombre identificacion="dni53783715Q">Marcos Gonzalez </nombre>
+        <nombre identificacion="dni123456789A">Miriam Smith </nombre>
+        </nombres>
+        <contactos>
+            <contacto nombreCliente="MarcosGonzalez">
+                <telefono>61358713</telefono>
+                <correo>alaja@gmail.com</correo>
+            </contacto>
+            <contacto nombreCliente="MiriamSmith">
+                <telefono>632536732</telefono>
+            </contacto>
+        </contactos>
+        <objetos>
+            <objeto>Pulsera 20 k </objeto>
+            <objeto>Anillo Ruby </objeto>
+            <objeto>Bolso Cassandre </objeto>
+        </objetos>
+        <descuentos>
+            <pareja>Desc pareja</pareja>
+            <largaEstancia>Desc larga estancia</largaEstancia>
+            <bookingGenius>Desc Booking Genius</bookingGenius>
+        </descuentos>
+        <precio>170$</precio>
+    </cliente>
+    <cliente codigo="prin">
+        <documentos>
+            <nif>X564789143p</nif>
+        </documentos>
+        <nombres>
+        <nombre identificacion="X564789143p">UgandaKnukles</nombre>
+        </nombres>
+        <contactos>
+            <contacto nombreCliente="UgandaKnukles">
+                <correo>uganda@gmail.com</correo>
+            </contacto>
+        </contactos>
+        <objetos>
+            <objeto>
+                Prototipo extraño
+            </objeto>
+            <objeto>
+                Diamante de dudosa procedencia
+            </objeto>
+        </objetos>
+        <descuentos>
+
+        </descuentos>
+        <precio>350$</precio>
+    </cliente>
+    <cliente codigo="sec">
+        <documentos>
+            <dni>54567890A</dni>
+        </documentos>
+        <nombres>
+        <nombre identificacion="dni54567890A">Cristina Barbera</nombre>
+        </nombres>
+        <contactos>
+            <contacto nombreCliente="CristinaBarbera">
+                <telefono>32674223</telefono>
+            </contacto>
+        </contactos>
+        <objetos>
+            <objeto>Portatil</objeto>
+            <objeto>Maletin</objeto>
+            <objeto>Mochila</objeto>
+        </objetos>
+        <descuentos>
+            <largaEstancia>Desc larga estancia</largaEstancia>
+            <agenciaViajes>Desc agencia de viajes</agenciaViajes>
+            <puntosTravel>Desc puntos Travel</puntosTravel>
+            <bookingGenius>Desc Booking Genius</bookingGenius>
+        </descuentos>
+        <precio>120$</precio>
+    </cliente>
+    <cliente codigo="ter">
+        <documentos>
+            <dni>41652367A</dni>
+            <nif>X23484242p</nif>
+        </documentos>
+        <nombres>
+        <nombre identificacion="dni41652367A">Marina Jezz</nombre>
+        <nombre identificacion="X23484242p">Juana Loma</nombre>
+        </nombres>
+        <contactos>
+            <contacto nombreCliente="MarinaJezz">
+                <correo>maricuri@gmail.com</correo>
+            </contacto>
+            <contacto nombreCliente="JuanaLoma">
+                <telefono>123454546</telefono>
+                <correo>jUANA@hotmail.com</correo>
+            </contacto>
+        </contactos>
+        <objetos>
+            <objeto>Maleta</objeto>
+            <objeto>Pulsera</objeto>
+        </objetos>
+        <descuentos>
+            <pareja>Desc pareja</pareja>
+        </descuentos>
+        <precio>300$</precio>
+    </cliente>
+</clientes>
+</instalaciones>

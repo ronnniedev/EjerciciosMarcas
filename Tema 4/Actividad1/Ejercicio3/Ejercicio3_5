@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+<!ELEMENT futbol (jugador*)>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+<jugador nombre="12" codigo="a1"/>
+<jugador nombre="14" codigo="a2" />
+<jugador nombre="15" codigo="a3" />
+<jugador nombre="16" codigo="a4" />
+</futbol>

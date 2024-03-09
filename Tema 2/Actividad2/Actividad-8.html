@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de uso de rowspan</title>
+</head>
+<style>
+
+    table {
+
+        border-color: red;
+
+    }
+</style>
+
+<body>
+    <table border="3">
+        <tr> <!--Contiene una fila-->
+            <th></th>
+            <th><b><center>Lunes</center></b></th>
+            <th><b><center>Martes</center></b></th>
+            <th><b><center>Miercoles</center></b></th>
+            <th><b><center>Jueves</center></b></th>
+            <th><b><center>Viernes</center></b></th>   
+        </tr>
+        <tr> <!--Contiene una fila-->
+            <td><b>10:00</b></td>
+            <td>B.B.D.D</td>
+            <td>Javascript</td>
+            <td rowspan="2"> ASP </td> <!-- Para fusionar celdas en columna-->
+            <td colspan="2">PHP</td>
+        </tr>
+        <tr> <!--Contiene una fila-->
+            <td><b>11:00</b></td>
+            <td>Javascript</td>
+            <td>B.B.D.D.</td>
+            <td colspan="2">B.B.D.D</td>
+        </tr>
+        <tr> <!--Contiene una fila-->
+            <td><b>12:00</b></td>
+            <td colspan="5">Descanso</td> <!-- Para fusionar celdas en fila-->
+        </tr>
+        <tr> <!--Contiene una fila-->
+            <td><b>13:00</b></td>
+            <td>ASP</td>
+            <td>MYSQL</td>
+            <td>CSS</td>
+            <td>Javascript</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr> <!--Contiene una fila-->
+            <td><b>14:00</b></td>
+            <td>MYSQL</td>
+            <td>ASP</td>
+            <td>B.B.D.D</td>
+            <td>CSS</td> 
+        </tr>
+    </table>
+</body>
+
+</html>

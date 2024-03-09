@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- le faltaba la interrogacion al inicio por lo que no se podia declarar el documento-->
+<news-article>
+    <entry no="1">
+        <title>Article no="1"</title>
+        <information>Información primer articulo</information> <!-- la barra de cierre estaba al reves-->
+    </entry>
+    <entry no="2">
+        <title>Article no="2"</title> <!-- Habia una mayuscula en la etiqueta de cierre -->
+        <information>And here should been inserted the content of the second article!</information>
+    </entry>
+</news-article><!-- falta cierre de etiqueta news-article-->

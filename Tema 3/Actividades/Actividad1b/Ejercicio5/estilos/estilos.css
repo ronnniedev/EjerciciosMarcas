@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: fit-content;
+    background-color: aqua;
+    width: 100%;
+    display:flex;
+}
+
+.icono{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+}
+
+.navegador {
+    height: 100%;
+    background-color: yellow;
+    margin-right: 5px;
+    width: 220px;
+    border-radius: 20px;
+}
+.navegador:hover {
+    background-color: gray;
+}
+
+h1{
+    position: relative;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    padding: 30px;
+    background-color: aquamarine;
+
+}
+
+div {
+height: 200px;
+width: 600px;
+background-color: black;
+margin-top: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 1100%;
+}
+
+.Botones{
+
+    background-color: gray;
+    width: fit-content;
+    padding: 5px;
+}
+
+.Botones:hover {
+    background-color: aquamarine;
+}
+
+.imagenes {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+@media(max-width:800px) {
+
+body{
+    background-color: brown;
+}
+
+header{
+    flex-direction: column;
+}
+
+.icono {
+    justify-content: center;
+}
+
+.nav{
+justify-content: space-evenly;
+text-align: center;
+width: 100%;
+margin: 0px;
+margin-bottom: 10px;
+}
+
+.navegador{
+    width: 100%;
+    background-color: pink;  
+    margin: 0px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    padding: 30px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div {
+height: 200px;
+width: 600px;
+background-color: black;
+margin: 10px;
+}
+
+
+}
+
+@media(max-width:600px){
+
+    body{
+        background-color: tomato;
+
+    }
+
+    aside {
+        padding: 30px;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        background-color: black;
+        
+        }
+
+}

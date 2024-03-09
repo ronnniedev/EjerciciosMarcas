@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendimientoConductores>
+    <conductor DNI="54267182Q">
+        <pedido id="2" vehiculo="43678HMN">
+            <bultos>27</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>13:18:00</hora>
+            </fecha>
+            <ubicacion ciudad="Gijon">
+                <calle>Santa Catalina 32</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="4" vehiculo="43678HMN">
+            <bultos>23</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>14:20:00</hora>
+            </fecha>
+            <ubicacion ciudad="Gijon">
+                <calle>Guzman Garcia 40</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="6" vehiculo="43678HMN">
+            <bultos>20</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>15:10:00</hora>
+            </fecha>
+            <ubicacion ciudad="Aviles">
+                <calle>Trono de oro 23</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="7" vehiculo="56899JKM">
+            <bultos>18</bultos>
+            <fecha>
+                <dia>27/09/23</dia>
+                <hora>20:42:00</hora>
+            </fecha>
+            <ubicacion ciudad="Aviles">
+                <calle>13 Rue del Percebe</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="8" vehiculo="56899JKM">
+            <bultos>40</bultos>
+            <fecha>
+                <dia>27/09/23</dia>
+                <hora>22:40:00</hora>
+            </fecha>
+            <ubicacion ciudad="Gijon">
+                <calle>Don chevique 23</calle>
+            </ubicacion>
+        </pedido>
+    </conductor>
+    <conductor DNI="67198201K">
+        <pedido id="1" vehiculo="56899JKM">
+            <bultos>26</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>13:32:00</hora>
+            </fecha>
+            <ubicacion ciudad="Gijon">
+                <calle>Teodoro Cuesta 17</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="3" vehiculo="56899JKM">
+            <bultos>32</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>14:23:00</hora>
+            </fecha>
+            <ubicacion ciudad="Gijon">
+                <calle>Magnus Bliskta 32</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="5" vehiculo="56899JKM">
+            <bultos>23</bultos>
+            <fecha>
+                <dia>26/09/23</dia>
+                <hora>15:40:00</hora>
+            </fecha>
+            <ubicacion ciudad="Oviedo">
+                <calle>Via de la plata 27</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="9" vehiculo="43678HMN">
+            <bultos>32</bultos>
+            <fecha>
+                <dia>27/09/23</dia>
+                <hora>20:22:00</hora>
+            </fecha>
+            <ubicacion ciudad="Aviles">
+                <calle>La minera 32</calle>
+            </ubicacion>
+        </pedido>
+        <pedido id="10" vehiculo="43678HMN">
+            <bultos>42</bultos>
+            <fecha>
+                <dia>27/09/23</dia>
+                <hora>21:40:00</hora>
+            </fecha>
+            <ubicacion ciudad="Aviles">
+                <calle>El oriente 23</calle>
+            </ubicacion>
+        </pedido>
+    </conductor>
+</rendimientoConductores>

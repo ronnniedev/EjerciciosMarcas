@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    width: 1300px;
+}
+
+img{
+    width: 350px;
+   
+
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px;
+
+}

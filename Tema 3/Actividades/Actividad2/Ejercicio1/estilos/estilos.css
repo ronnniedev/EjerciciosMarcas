@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.sensaciones{
+    background-color: gray;
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin: 50px; 
+    text-align: center;
+    box-shadow: 10px 5px 5px gray;
+}
+.diario{
+    background-color: gray;
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    box-shadow:-10px -5px 5px gray;
+}
+
+.asturiano{
+    background-color: gray;
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    clear: both;
+    box-shadow: 10px -5px 5px gray;
+}
+.business{
+    background-color: gray;
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    box-shadow: -10px 5px 5px gray;
+}
+
+h4 {
+    font-weight: bold;
+    float: left;
+    padding-left: 20px;
+    font-size:x-large;
+    margin-bottom: 0px;
+}
+p{
+    clear: both;
+    text-align: left;
+    padding-left: 75px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.precio {
+    font-weight: bold;
+    padding-right:40%;
+    font-size:x-large;
+    margin-top: 5px;
+    text-align: right;
+}
+    

@@ -1,0 +1,11 @@
+/* Estilos CSS */
+root {
+    font-family: Arial, sans-serif;
+    color: red;
+  }
+  element {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+  }

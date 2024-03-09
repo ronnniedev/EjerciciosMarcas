@@ -1,0 +1,19 @@
+body{
+    background-color: silver;
+    font-family: Arial;
+    color: red;
+
+}
+
+.cabecera {
+
+    color:white;
+    font-family: Tahoma;
+}
+
+p {
+    text-align: center;
+    width: 250px;
+    background-color: olive;
+
+}

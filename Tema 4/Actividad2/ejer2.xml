@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista SYSTEM "ejer2.dtd">
+<lista>
+    <pedido>
+        <numSerie>1236715Q</numSerie>
+        <cantidad>23</cantidad>
+        </pedido>
+    <pedido>
+        <numSerie>248123A</numSerie>
+        <cantidad>2</cantidad>
+        <peso>32</peso>
+        </pedido>
+</lista>

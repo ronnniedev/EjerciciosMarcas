@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+    <bicicleta velocidad="menosde100km/h"></bicicleta> 
+    <patinete velocidadMaxima="50 km/h"></patinete>
+</mediosDeTransporte><!--cambie el < por un "menos de" a velocidad maxima le meti una "_" y cambie el cierre de patienete a bicileta-->

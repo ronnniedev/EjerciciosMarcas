@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes'?>
+<publication>
+    <newsitem> <!-- le sobraba la barra de (/) que se encontraba a su derecha-->
+    <source>
+            <agency>STT</agency>
+            <editor>Miller</editor> <!-- le faltaba el simbolo (<) para cerrar la etiqueta-->
+        </source>
+        <class>local</class>
+        <article>
+            <heading>Snowstorms in Lappland</heading>
+            <text>snow.html</text>
+            <summary>snowx.html</summary>
+        </article>
+    </newsitem>
+</publication> <!-- le faltaba la barra de cierre (/) a la etiqueta "publication" -->

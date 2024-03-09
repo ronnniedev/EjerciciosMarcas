@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte>Atletismo</deporte> <!-- Se saca Atletismo de dentro de la etiqueta y se pone la barra de cierre a la izquierda-->
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista> <!--faltaba una etiqueta de cierre-->
+        <deporte>Natación</deporte><!-- Se saca Atletismo de dentro de la etiqueta y se pone la barra de cierre a la izquierda-->
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

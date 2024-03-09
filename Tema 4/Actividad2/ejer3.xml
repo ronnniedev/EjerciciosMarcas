@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "ejer3.dtd">
+<productos>
+    <producto>
+        <raton codigo="Rt32">
+            <nombre>Jamelgo</nombre>
+        </raton>
+    </producto>
+    <producto>
+        <teclado codigo="tc32">
+            <descripcion>Razer Brillante</descripcion>
+        </teclado>
+    </producto>
+    <producto>
+        <monitor codigo="mt32">
+            <nombre>Maricarmen</nombre>
+            <descripcion>Brilla mucho</descripcion>
+        </monitor>
+    </producto>
+</productos>

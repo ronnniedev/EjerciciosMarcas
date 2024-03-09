@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+hgroup {
+    margin-top: 10px;
+
+}
+
+h3 {
+
+    font-size: 15px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+    color: #666;
+    clear: both;
+}
+
+figcaption {
+    font-style:italic;
+    color: solid black;
+    font-size: 1.1em;
+    border: 1px solid black;
+}
+
+figure {
+    margin: 0px;
+    float: left;
+    width: 50%;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 5%;
+    padding-bottom: 15px;
+    padding-right: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+

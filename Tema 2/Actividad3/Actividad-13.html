@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad13</title>
+    <style>
+        body {
+            background-color: aqua;
+
+        }
+        .fondoRosa{
+            background-color: pink;
+        }
+        .fondoBlanco {
+
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tienes algo para decir?</h1> <!--esto establece la cabeza para el ejercicio-->
+    <p>
+        A traves de este formulario puedes enviarme un mensaje para corregir errores, a mejorar mi blog, o simplemente
+        para decir hola.
+        Cualquier cosa que tengas para decir es bienvenida, asi que no lo dudes y déjame un mensaje. Estare feliz de
+        contestarte!
+    </p>
+    <form> <!-- abre formulario -->
+        <fieldset class="fondoRosa">
+            <legend>Mensaje</legend><!-- la leyenda-->
+            <label>Tu nombre: </label> <!-- Label marca que es un etiqueta-->
+            <input type="text" name="nombre"><br><br>
+            <label>Tu direccion de correo: </label>
+            <input type="text" name="direccion de correo"><br><br>
+            <label>Tu mensaje:</label><br>
+            <textarea></textarea>
+        </fieldset>
+        <br>
+        <fieldset class="fondoBlanco">
+            <legend>Estudios</legend><!-- la leyenda-->
+            <label>¿Que estas estudiando?</label>
+            <select name="estudios">
+                <option>DAM</option>
+                <option>DAW</option>
+            </select> 
+            <label> ¿Cual es tu asignatura favorita? </label>
+            <select name="estudios">
+                <option>Programacion</option>
+                <option>Bases de datos</option>
+                <option>Lenguaje de marcas</option>
+                <option>Entornos de desarrollo</option>
+                <option>Sistemas informaticos</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset class="fondoRosa">
+                <legend>Nuevos temas</legend><!-- la leyenda--> 
+                <label>¿Qué temas te gustaria que trate mas en mi sitio? <br>
+                    <input type="checkbox" name="HTML"> Películas
+                    <input type="checkbox" name="Gráficos"> Deportes
+                    <input type="checkbox" name="videojuegos"> Videojuegos
+                    <input type="checkbox" name="Arte"> Arte
+                    <input type="checkbox" name="Música"> Música
+                </p>   
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar la información">
+        <input type="reset" value="Comenzar de nuevo">
+
+    </form>
+
+
+</body>
+
+</html>

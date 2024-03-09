@@ -1,0 +1,127 @@
+
+.floatDerecha { 
+     width: 80px;
+     height: 100px;
+     float: left;
+     font-family:Verdana;
+}
+.encabezado{
+    border-radius: 20px;
+    background-color: rgb(218, 162, 31);
+    border-width: 5px;
+    font-family:Verdana;
+}
+.floatIzquierda{
+    width: 80px;
+    height: 100px;
+    float: right;
+    font-family:Verdana;
+}
+.head{
+    font-size: 33px;
+    font-family:Verdana;
+}
+.fotos{
+    height: 150px;
+    width: 150px;
+    font-family:Verdana;
+}
+.cajaTextoIzq{
+    Float: left;
+    border-radius: 25px;
+    width:60%;
+    height: 300px;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    
+}
+.cajaTextoDer{
+    margin-right:1%;
+    border-radius: 25px;
+    height: 300px;
+    font-size: 17px;
+    background-color: brown;
+    font-family:Verdana;
+}
+
+.texto{
+    margin-top: 1cap;
+    font-size: 18px;
+    text-align: left;
+    font-family:Verdana;
+
+}
+.salto{
+    padding-top: 10cap;
+    font-family:Verdana;
+}
+.envios{
+    border-radius: 25px;
+    width:900px;
+    background-color: brown;
+    font-family:Verdana;
+}
+
+.envio{
+    height: 250px;
+    width: 250px;
+    margin-right: 5%;
+    float:right;
+    font-family:Verdana;
+}
+
+.redessociales{
+    border-radius: 25px;
+    width: 98%;
+    height: 200px;
+    background-color: gray;
+    font-family:Verdana;
+}
+
+.iconos{
+    height: 100px;
+    width: 100px;
+    margin-left: 20%;
+
+}
+
+
+
+.izq{
+    float: left;
+    margin-left: 20%;
+    font-family:Verdana;
+}
+
+.encabezado2 {
+    float: left;
+    margin-left: 0cap;
+    width: 11%;
+    background-color: chocolate;
+    font-family:Verdana;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.boton{
+    background-color: chocolate;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family:Verdana;
+    
+}
+
+.sugerencias{
+
+    max-width: 60%;
+    min-width: 60%;
+}
+
+img {
+    border-radius: 10%;
+}
+
+
+   
+

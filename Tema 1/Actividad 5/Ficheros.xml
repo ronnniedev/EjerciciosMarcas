@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estructura>
+    <directorio valor="/">
+        <fichero>index.html</fichero>
+        <fichero>contactar.html</fichero>
+        <directorio nombre="imagenes">
+            <fichero>impresora.gif</fichero>
+            <fichero>monitor.gif</fichero>
+            <fichero>teclado.gif</fichero>
+        </directorio>
+    </directorio>
+    <directorio nombre="productos">
+        <fichero>impresora.html</fichero>
+        <fichero>monitor.html</fichero>
+        <fichero>teclado.html</fichero>
+    </directorio>
+</estructura>

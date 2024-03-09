@@ -1,0 +1,538 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    
+    width: 70%;
+    border-radius: 20px;
+    height: 80px;
+    margin-top: 5px;
+    border: 3px solid rgb(190,190,190,0);
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+.redessociales{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: gray;
+    font-family:Verdana;
+    border: 2px solid white;
+    margin-top: 3cap;
+    clear: both;
+    text-align: center;
+}
+
+.botones:hover {
+    font-size: 25px;
+    font-family:Verdana;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px;
+    justify-content:space-around;
+    transition: 600ms;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconosNav {
+    height:50px;
+    width:50px;
+}
+
+.botones {
+    font-size: 20px;
+    font-family:Verdana; 
+    background-color: gray;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    height: 10%;
+}
+
+.floatDerecha { 
+     width: 80px;
+     height: 100px;
+     float: left;
+     font-family:Verdana;
+     margin: 5px;
+}
+.encabezado{
+    border-radius: 20px;
+    background-color: rgb(218, 162, 31);
+    font-family:Verdana;
+    height: 120px;
+    border: 3px solid gray;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.floatIzquierda{
+    width: 80px;
+    height: 100px;
+    float: right;
+    font-family:Verdana;
+    margin: 5px;
+}
+.head{
+    font-size: 33px;
+    font-family:Verdana;
+}
+.fotos{
+    height: 150px;
+    width: 150px;
+    font-family:Verdana;
+}
+.cajaTextoReceta{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 3px;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+}
+
+.cajaTexto{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 3px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+.cajaTextoArreglo{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 3px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 5%;
+}
+.cajaTextoArregloDer{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 3px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
+}
+.cajaTextoHistoria{
+    border-radius: 25px;
+    height: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 3%;
+}
+.cajaTextoDer{
+    margin-right:1%;
+    border-radius: 25px;
+    height: 300px;
+    font-size: 17px;
+    background-color: brown;
+    font-family:Verdana;
+}
+
+.texto{
+    margin-top: 1cap;
+    font-size: 21px;
+    font-family:Verdana;
+    text-align: justify;
+
+}
+.envios{
+    border-radius: 25px;
+    width:900px;
+    background-color: brown;
+    font-family:Verdana;
+}
+.iconos{
+    height: 100px;
+    width: 100px;
+    justify-content: space-around;
+
+}
+
+.izq{
+    float: left;
+    margin-left: 20%;
+    font-family:Verdana;
+}
+
+
+.boton{
+    background-color: chocolate;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family:Verdana;
+    
+}
+
+.sugerencias{
+
+    max-width: 60%;
+    min-width: 60%;
+}
+
+.confiteria {
+    height: 250px;
+    width:  300px;
+    
+}
+
+img {
+    border-radius: 10%;
+}
+
+figcaption {
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+}
+
+
+main{
+    margin-top:3%;
+}
+
+.fondoRecetas {
+    border-radius: 20px;
+    border: 1px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(218, 162, 31,0.4);
+}
+
+.fila1 {
+    float:left;
+    width: 40%;
+    margin-left:7%;
+    margin-top: 1%;
+}
+ul {
+    list-style-type:circle;
+    font-size: 18px;
+    font-family:Verdana;
+}
+
+.listas {
+        margin-top: 1cap;
+        font-size: 16px;
+        font-family:Verdana;
+        text-align: justify;
+
+}
+
+.cajaTextoContacto{
+    border-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(165, 42, 42);
+    font-family:Verdana;
+    padding: 20px;
+    padding-top: 3px;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+fieldset{
+    width: fit-content;
+    background-color: rgb(201, 201, 201);
+}
+
+.correo {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+.masgrande {
+
+    font-size: 30px;
+}
+
+.responsive{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 75%;
+}
+
+.receta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publicidad {
+
+background-color: rgb(165, 42, 42);
+border-radius: 25px;
+position: relative;
+height: fit-content;
+width: fit-content;
+text-align: center;
+margin-top: 17%;
+padding: 10px;
+
+}
+
+.publicidadHistoria {
+
+    background-color: rgb(165, 42, 42);
+    border-radius: 25px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin-top: 70%;
+    padding: 10px;
+    
+}
+
+.imgPublicidad{
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.margen {
+
+margin-right: 5%;
+
+}
+
+.flex {
+display: flex;
+flex-direction: row;
+
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+color: black;
+
+}
+
+a:visited{
+
+    text-decoration: none;
+}
+
+@media(max-width:1000px){
+
+    nav {
+    
+        width: 100%;
+        border-radius: 20px;
+        height: fit-content;
+        margin-top: 5px;
+        border: 3px solid rgb(190,190,190,0);
+        display: flex;
+        flex-direction: column;
+        margin-left:0;
+        
+    }
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .iconosNav {
+        height:25px;
+        width:25px;
+    
+    }
+    
+    .botones {
+        font-size: 20px;
+        font-family:Verdana; 
+        background-color: white;
+        border-radius: 20px;
+        padding: 5px;
+        text-align: center;
+        
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cajaTextoReceta{
+        border-radius: 25px;
+        height: fit-content;
+        background-color: rgb(165, 42, 42);
+        font-family:Verdana;
+        padding: 20px;
+        padding-top: 3px;
+        margin-left: 18%;
+        margin-top: 1.5%;
+        margin-bottom: 3%;
+        width: 600px;
+        font-size: 8px;
+    }
+
+    .listas{
+        font-size: 12px;
+    }
+    
+    .imgPublicidad{
+
+        height: 150px;
+        width: 150px;
+    
+    }
+
+    .contenido{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cajaTextoArreglo {
+        margin-right: 0%;
+        font-size: 12px;
+        width: fit-content;
+      }
+    .cajaTextoArregloDer {
+        margin-right: 0%;
+        font-size: 12px;
+        width: fit-content;
+     }
+
+     .texto{
+        font-size: 12px;
+
+     }
+
+     .confiteria {
+        height: 125px;
+        width:  150px;
+        
+    }
+    .publicidadHistoria {
+
+        margin-top: 3%;
+    }
+
+    .publicidad{
+        margin-top: 3%;
+    }
+
+    .correo {
+        height: 125px;
+        width: 125px;
+        margin-top: 50px;
+        
+    }
+}
+
+@media(max-width:600px){
+    .correo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cajaTextoReceta{
+        border-radius: 25px;
+        height: fit-content;
+        background-color: rgb(165, 42, 42);
+        font-family:Verdana;
+        padding: 20px;
+        padding-top: 3px;
+        margin-left: 18%;
+        margin-top: 1.5%;
+        margin-bottom: 3%;
+        width: 400px;
+    }
+    .imgPublicidad{
+
+        height: 50px;
+        width: 50px;
+    
+    }
+
+    figcaption{
+        font-size: 8px;
+        height: fit-content;
+
+    }
+    .confiteria {
+        height: 75px;
+        width:  100px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

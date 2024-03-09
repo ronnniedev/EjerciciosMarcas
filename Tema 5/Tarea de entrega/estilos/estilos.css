@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+   font-family: serif;
+}
+
+.arreglo{
+    padding: 0px;
+
+}
+
+.caja{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.lupa{
+    width: 80%;
+    margin-top: 12px;
+    margin-left: 10%;
+}
+
+body{
+    background-color: aqua;
+}
+
+.izquierda{
+    float: left;
+}
+.cabecera{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+header{
+    padding: 5px;
+    background-color: beige;
+    margin-top: 15px;
+}
+
+.cajaRoja{
+    background-color: red;
+    border: 4px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+}
+
+.botones {
+    font-size: 15px;
+    font-family:Verdana;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    height: 100%;
+    color:black;
+}
+.botones:hover{
+    color: black;
+}
+a:hover{
+    color: black;
+    transition: 600ms;
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 110%;
+}
+.iconosNav {
+    height:15px;
+    width:15px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+h2{
+    text-align: center;
+    color: gray;
+    text-decoration: underline;
+}
+
+.enLinea{
+display: flex;
+
+}
+
+
+@media (max-width: 560px){
+.cajaRoja{
+    height: 50px;
+}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<!ELEMENT instalaciones (consignas,clientes)>
+    <!ELEMENT consignas (cabeceraConsigna,consigna+)>
+    <!ELEMENT cabeceraConsigna (titulo,titulo,titulo,titulo,titulo)>
+    <!ELEMENT consigna (nombreConsigna,encargado+,(completo|diurno|nocturno))>
+    <!ELEMENT nombreConsigna (#PCDATA)>
+    <!ELEMENT completo (#PCDATA)>
+    <!ELEMENT diurno (#PCDATA)>
+    <!ELEMENT nocturno (#PCDATA)>
+    <!ATTLIST consigna codigo ID #REQUIRED>
+    <!ELEMENT encargado (#PCDATA)>
+    <!ELEMENT clientes (cabecera,cliente*)>
+    <!ELEMENT cliente (documentos,nombres,contactos+,objetos,descuentos*,precio)>
+    <!ELEMENT cabecera (titulo,titulo,titulo,titulo,titulo,titulo)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT documentos ((dni?|nif?),(dni?|nif?))>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nif (#PCDATA)>
+    <!ATTLIST cliente codigo IDREF #REQUIRED>
+    <!ELEMENT nombres (nombre+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre identificacion ID #REQUIRED>
+    <!ELEMENT contactos (contacto+)>
+    <!ELEMENT contacto ((telefono|correo)+)>
+    <!ATTLIST contacto nombreCliente ID #REQUIRED>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT correo (#PCDATA)>
+    <!ELEMENT objetos (objeto+)>
+    <!ELEMENT objeto (#PCDATA)>
+    <!ELEMENT descuentos (pareja?,largaEstancia?,agenciaViajes?,puntosTravel?,bookingGenius?)>
+    <!ELEMENT pareja (#PCDATA)>
+    <!ELEMENT largaEstancia (#PCDATA)>
+    <!ELEMENT agenciaViajes (#PCDATA)>
+    <!ELEMENT puntosTravel (#PCDATA)>
+    <!ELEMENT bookingGenius (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>

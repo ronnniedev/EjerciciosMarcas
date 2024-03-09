@@ -1,0 +1,17 @@
+.contenedor div {
+    height: 100px;
+    width: 100px;
+}
+.contenedor {
+    display:flex;
+    justify-content: space-evenly;
+}
+.impar {
+    background-color: green;
+    
+}
+
+.par {
+    background-color: purple;
+
+}

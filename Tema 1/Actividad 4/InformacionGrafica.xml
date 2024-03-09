@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geografiamundial> <!-- junte las palabras ya que no se permiten espacios dentro de ellas-->
+    <pais>
+        <pais>España</pais>
+        <continente>Europa</continente>
+        <capital nombre="Madrid"></capital> <!-- movi el atributo a la etiqueta de inicio-->
+    </pais>
+</geografiamundial> <!-- Faltaba etiqueta de cierre -->

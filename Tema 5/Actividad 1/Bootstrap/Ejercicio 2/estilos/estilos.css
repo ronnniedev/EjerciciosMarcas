@@ -1,0 +1,25 @@
+.caja {
+    border: 2px solid black;
+    height: 100px;
+
+}
+
+.verde{
+    background-color:green;
+
+}
+
+.roja{
+    background-color: red;
+
+}
+
+.azul{
+
+    background-color: aqua;
+}
+
+.gris{
+
+    background-color: gray;
+}

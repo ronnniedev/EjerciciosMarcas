@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM "ejer4.dtd">
+<listaventas>
+    <venta codFactura="f22">
+        <importe>50 euros</importe>
+        <comprador>Mauricio</comprador>
+        <vendedor>Sony</vendedor>
+    </venta>
+    <venta codFactura="f23">
+        <importe>50 euros</importe>
+        <comprador>Mauricio</comprador>
+        <vendedor>Sony</vendedor>
+    </venta>
+</listaventas>

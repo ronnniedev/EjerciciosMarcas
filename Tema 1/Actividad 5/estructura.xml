@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estructura>
+    <fichero prioridad="3" fechamod="04/10/2022">
+        <nombre>index.html</nombre>
+    </fichero>
+    <fichero prioridad="5" fechamod="04/10/2022">
+        <nombre>ayuda.html</nombre>
+    </fichero>
+    <directorio nombre="animales">
+        <fichero fechamod="30/9/2022" prioridad="1">
+            <nombre>peces.html</nombre>
+        </fichero>
+    </directorio>
+    <directorio nombre="minerales" prioridad="3">
+        <fichero fechamod="29/9/2022">
+            <nombre>precioso.html</nombre>
+        </fichero>
+    </directorio>
+    <directorio nombre="vegetales" prioridad="2">
+        <fichero fechamod="28/9/2022">
+            <nombre>lechuga.html</nombre>
+        </fichero>
+    </directorio>
+    <directorio nombre="imagenes">
+        <fichero titulo="Sardina Mar Cantabrico">sardina.gif</fichero>
+        <fichero titulo="Trucha Marron">trucha.gif"</fichero>
+        <fichero titulo="Mina de plata">plata.gif</fichero>
+    </directorio>
+</estructura>

@@ -1,0 +1,62 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #ff8000;
+}
+
+.primerparrafo {
+    float:right;
+    width: 100%;
+    text-align: right;
+}
+
+.rectanguloVerde {
+    width: 75%;
+    height: 150px;
+    font-size: 28px;
+    padding: 50px;
+    float:left;
+    background-color: greenyellow;
+}
+
+table {
+
+    border: 2px solid black;
+    color: white;
+    width: 25%;
+    height: 170px;
+    background-color: purple;
+    float: left;
+}
+
+th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    background-color: purple;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    background-color: purple;
+}
+
+.rectanguloRojo {
+
+    width: 55%;
+    height: 300px;
+    font-size: 28px;
+    padding: 50px;
+    
+    background-color: red;
+    clear: both;
+    color: white;
+    float: right;
+    
+}
+.margen {
+
+    margin-top:50px;
+
+}

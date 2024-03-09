@@ -1,0 +1,39 @@
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(134, 125, 125);
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top:  5px;
+    margin-left: 5px;
+}
+
+section{
+width: 100%;
+height: 100px;
+background-color: aqua;
+display: inline-flex;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.spaceBetwen {
+    justify-content:space-between;
+}
+
+.spaceAround {
+    justify-content:space-around;
+}

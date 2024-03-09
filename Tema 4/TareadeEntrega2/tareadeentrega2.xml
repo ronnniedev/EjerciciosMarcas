@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hardwareCatalog SYSTEM "tareadeentrega2.dtd">
+<?xml-stylesheet href="tareadeentrega2.css" type="text/css"?>
+<hardwareCatalog>
+    <item>
+        <id>1</id>
+        <type>tipazo</type>
+        <brand>Ea</brand>
+        <model>Portatil Asus 3</model>
+        <especifications>360 Gigas</especifications>
+    </item>
+    <item>
+        <id>2</id>
+        <type>tipasu</type>
+        <brand>Microsoft</brand>
+        <model>Sobremesa</model>
+        <especifications>Disquetera</especifications>
+    </item>
+    <item>
+        <id>3</id>
+        <type>tipin</type>
+        <brand>Ubisoft</brand>
+        <model>Portatil Genius</model>
+        <especifications>Teclado brillante</especifications>
+    </item>
+</hardwareCatalog>

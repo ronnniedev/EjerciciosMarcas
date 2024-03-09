@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas> <!-- Añado una etiqueta llamada peliculas que contiene el documento -->
+    <pelicula> <!-- Sobrentiendo que el autor de ambas peliculas es barto por lo que lo coloco
+        como...-->
+        <titulo>Con faldas y a lo loco</titulo> <!--...atributo
+        dentro de las etiquetas-->
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula>
+    <autor>barto</autor>
+</peliculas>

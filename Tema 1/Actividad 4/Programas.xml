@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa1 nombre="Firefox" licencia="GPL" licencia2="MPL">
+    </programa1> <!-- los numere para ordenarlos mejor, numere otra ...-->
+    <programa2 nombre="LibreOffice" licencia="LGPL">
+    </programa2> <!--...licencia como licencia 2 para que pudiera validarse -->                       
+    <programa3 nombre="Inkscape" licencia="GPL"> <!-- añadi comillas dentro de la licencial GPL-->
+    </programa3>
+</programas>
