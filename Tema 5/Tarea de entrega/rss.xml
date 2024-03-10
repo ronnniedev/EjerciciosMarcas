@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+    <tittle>El blog de vonnie</tittle>
+    <link>https://www.elblogdevonnie.es</link>
+    <description>La pagina principal donde se visualizan los 6 articulos principales y mas recientes del blog, tambien contiene 3 enlaces a secciones derivadas del foro y un footeer con 
+        otros blogs asociados, descripciones varias y los galardones de la propietaria del blog.
+    </description>
+    <language>es</language>
+    <webMaster>Telecom</webMaster>
+    <item>
+        <tittle>Delicias Mediterráneas: Reinventando lo Tradicional en tu Cocina</tittle>
+        <link>https://www.elblogdevonnie.es/00001</link>
+        <description>Una entrada de blog que explora las diferentes experiencias culinarias a lo largo del mediterraneo</description>
+        <category>Tradicional</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Fri, 16 Feb 2024 12:32:43 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00001</guid>
+    </item>
+    <item>
+        <tittle>Sabores Globales: Un Viaje Gastronómico desde Casa</tittle>
+        <link>https://www.elblogdevonnie.es/00002</link>
+        <description>Una entrada de blog especializada en explorar diferentes platos internaciones con la finalidad de que el lector pueda hacerselos en su propia casa</description>
+        <category>Internacional</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Mon, 12 Feb 2024 17:32:43 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00002</guid>
+    </item>
+    <item>
+        <tittle>Cocina Saludable, Sabor sin Sacrificios: Recetas Balanceadas para tu Bienestar</tittle>
+        <link>https://www.elblogdevonnie.es/00003</link>
+        <description>Un post del blog que pretende hacer conocer al lector que la cocina saludable tambien puede ser deliciosa y simple</description>
+        <category>Salud</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Fri, 9 Feb 2024 14:45:57 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00003</guid>
+    </item>
+    <item>
+        <tittle>Dulces Tentaciones: Recetas de Postres para Endulzar tu Día</tittle>
+        <link>https://www.elblogdevonnie.es/00004</link>
+        <description>Una entrada de blog donde se enseña al lector diferentes recetas para dulces griegos</description>
+        <category>Dulces</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Fri, 5 Feb 2024 17:53:12 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00004</guid>
+    </item>
+    <item>
+        <tittle>Platos Reconfortantes para el Invierno: Recetas Calientes para Alma y Cuerpo</tittle>
+        <link>https://www.elblogdevonnie.es/00005</link>
+        <description>Una entrada de blog centrada en explorar los diferentes embutidos que pueden encajar bien desde una perspectiva invernal</description>
+        <category>Tradicional</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Fri, 2 Feb 2024 21:14:27 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00005</guid>
+    </item>
+    <item>
+        <tittle>Cocina Express: Sabores deliciosos en Tiempo Récord para tu Ajetreada Vida</tittle>
+        <link>https://www.elblogdevonnie.es/00006</link>
+        <description>Una entrada de blog que habla sobre el uso que podemos hacer de una olla express para mejorar nuestras habilidades culinarias</description>
+        <category>Utensilios</category>
+        <creator>Vonnie23455</creator>
+        <pubDate>Fri, 2 Feb 2024 08:14:34 GMT</pubDate>
+        <guid>https://www.elblogdevonnie.es/00006</guid>
+    </item>
+</channel>

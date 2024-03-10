@@ -88,10 +88,6 @@ figcaption{
     width: 100%;
     height: 300px;
 }
-body{
-    background-color: aqua;
-}
-
 .izquierda{
     float: left;
 }
@@ -107,11 +103,6 @@ header{
     background-color: beige;
     margin-top: 15px;
     border-radius: 30px;
-}
-
-.cajaRoja{
-    background-color: red;
-    border: 4px solid white;
 }
 
 a{
