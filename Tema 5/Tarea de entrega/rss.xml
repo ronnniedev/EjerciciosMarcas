@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
 <channel>
     <tittle>El blog de vonnie</tittle>
     <link>https://www.elblogdevonnie.es</link>
@@ -62,3 +63,4 @@
         <guid>https://www.elblogdevonnie.es/00006</guid>
     </item>
 </channel>
+</rss>
